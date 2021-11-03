@@ -1320,7 +1320,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1351,6 +1351,9 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 15pt;
 			}
+			#meta{
+				width: 50px;
+			}
 
 		}
 
@@ -1358,6 +1361,9 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 14pt;
+			}
+			#meta{
+				width: 46px;
 			}
 
 		}
@@ -1367,6 +1373,9 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 12pt;
 			}
+			#meta{
+				width: 40px;
+			}
 
 		}
 
@@ -1375,7 +1384,9 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 11pt;
 			}
-
+			#meta{
+				width: 37px;
+			}
 		}
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
@@ -2126,7 +2137,7 @@ input, select, textarea {
 					}
 
 						#main > .panel.intro .pic {
-							height: 25em;
+							height: 45em;
 							width: 100%;
 						}
 
@@ -2134,17 +2145,23 @@ input, select, textarea {
 							padding: 4em;
 							text-align: center;
 						}
+						#titulo{
+							padding: 60px;
+						}
 
 				}
 
 				@media screen and (max-width: 736px) {
 
 					#main > .panel.intro .pic {
-						height: 20em;
+						height: 90;
 					}
 
 					#main > .panel.intro header {
 						padding: 2.75em 2em 2.5em 2em;
+					}
+					#titulo{
+						padding: 50px;
 					}
 
 						#main > .panel.intro header p {
