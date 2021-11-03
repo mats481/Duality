@@ -34,6 +34,10 @@ body {
 	background: linear-gradient(#513b56,#5dd39e)!important;
 }
 
+#video{
+	height: 315px;
+	width: 560px;
+}
 #myLife{
 	text-align: right;
 }
@@ -1936,6 +1940,10 @@ input, select, textarea {
 				padding: 3em 0;
 				max-width: calc(100% - 6em);
 			}
+			#video{
+				height: 540px;
+				width: 680px;
+			}
 
 		}
 
@@ -1944,6 +1952,10 @@ input, select, textarea {
 			#wrapper {
 				padding: 1.5em 0;
 				max-width: calc(100% - 8em);
+			}
+			#video{
+				height: 440px;
+				width: 540px;
 			}
 
 		}
@@ -1954,6 +1966,10 @@ input, select, textarea {
 				padding: 1em 0;
 				max-width: calc(100% - 2em);
 			}
+			#video{
+				height: auto;
+				width: auto;
+			}
 
 		}
 
@@ -1962,6 +1978,10 @@ input, select, textarea {
 			#wrapper {
 				padding: 1em 0;
 				max-width: 100%;
+			}
+			#video{
+				height: auto;
+				width: auto;
 			}
 
 		}
@@ -2155,6 +2175,10 @@ input, select, textarea {
 
 					#main > .panel.intro .pic {
 						height: 90;
+					}
+					#video{
+						height: 400px;
+						width: 100%;
 					}
 
 					#main > .panel.intro header {
